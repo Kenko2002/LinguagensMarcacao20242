@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div>
+            <div class="form-container">
+                <form action="index.html" method="post">
+                    <h1>Cadastrar usuário</h1>
+
+                    <!-- Campo Nome -->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <!-- Campo Email -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <!-- Campo Senha -->
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required><br><br>
+
+                    <!-- Campo Confirma Senha -->
+                    <label for="confirmaSenha">Confirma Senha:</label>
+                    <input type="password" id="confirmaSenha" name="confirmaSenha" required><br><br>
+
+                    <!-- Campo Idade (Radio Buttons) -->
+                    <label>Idade:</label><br>
+                    <input type="radio" id="idade1" name="idade" value="18-25">
+                    <label for="idade1">18-25</label><br>
+                    <input type="radio" id="idade2" name="idade" value="26-35">
+                    <label for="idade2">26-35</label><br>
+                    <input type="radio" id="idade3" name="idade" value="36+">
+                    <label for="idade3">36+</label><br><br>
+
+                    <!-- Campo Descrição -->
+                    <label for="descricao">Descrição:</label><br>
+                    <textarea id="descricao" name="descricao" rows="4" cols="38"></textarea><br><br>
+
+                    <!-- Campo Perfil de Trabalho (Select) -->
+                    <label for="perfil">Perfil de Trabalho:</label>
+                    <select id="perfil" name="perfil" required>
+                        <option value="front_end">Front End Developer</option>
+                        <option value="back_end">Back End Developer</option>
+                        <option value="full_stack">Full Stack Developer</option>
+                        <option value="dev_ops">Dev Ops</option>
+                        <option value="analista">Analista</option>
+                    </select><br><br>
+
+                    <!-- Campo Interesses (Checkboxes) -->
+                    <label>Interesses:</label><br>
+                    <input type="checkbox" id="interesse1" name="interesses" value="programador">
+                    <label for="interesse1">Programador</label><br>
+                    <input type="checkbox" id="interesse2" name="interesses" value="designer">
+                    <label for="interesse2">Designer</label><br>
+                    <input type="checkbox" id="interesse3" name="interesses" value="analista">
+                    <label for="interesse3">Analista</label><br><br>
+
+                    <!-- Botão de Enviar -->
+                    <button type="submit">Enviar dados</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+<style>
+    .form-container {
+        border: 2px solid #000;
+        padding: 20px;
+        width: 300px;
+        margin: auto;
+    }
+    .form-section {
+        margin-bottom: 20px;
+    }
+    .form-section h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+</style>
