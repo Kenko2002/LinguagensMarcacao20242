@@ -1,0 +1,81 @@
+
+body {
+    background-color: #e6e6fa; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.container {
+    background-color: #f5f5dc; 
+    width: 960px;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #4b0082; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none; /* aplicado para remover o sublinhado dos links (<a>), deixando-os visualmente mais limpos. */
+    color: #333333; 
+}
+
+img{
+    border-radius:9px;
+}
+
+#imagem-principal {
+    width: 960px;
+}
+
+.wide-column {
+    width: 150px; 
+    border:1px solid black;
+}
+.name-column {
+    width: 200px; 
+    border:1px solid black;
+}
+.power-column {
+    width: 180px; 
+    border:1px solid black;
+}
+
+
+
+table {
+    text-align: center;
+    border: 1px solid black; 
+    width: 400px;
+    margin: auto; 
+    border-collapse:collapse
+}
+
+td {
+    padding: 10px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd; 
+}
+
+table td img {
+    border-radius: 25px;
+    width: 100%; 
+}
+
+table tr:hover {
+    background-color: #f0f0f0; 
+    border-collapse:collapse
+}

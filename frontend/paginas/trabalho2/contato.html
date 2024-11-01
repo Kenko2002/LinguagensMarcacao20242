@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Evangelion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Wiki Evangelion</h1>
+    </header>
+        
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#menu-section">Menu</a></li>
+            <li><a href="contato.html">Contato</li>
+            <li>Galeria</li>
+            <li>Sobre</li>
+        </ul>
+    </nav>
+
+
+    <section id="contato-section">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+
+    <footer>
+        Rua dos Bobos, Edifício Seila n° 135
+    </footer>
+
+</body>
+</html>
+
+
+
+
+<style>
+
+    /* Estilo para caixas de texto e textarea */
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaçamento externo (10px acima e abaixo) */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o evento focus */
+input[type="text"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    background-color: #f0f8ff; /* Cor de fundo ao focar */
+    border-color: #4b0082; /* Cor da borda ao focar */
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #4b0082; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+button:hover {
+    background-color: #6a0dad; /* Cor do botão ao passar o mouse */
+}
+
+
+</style>
