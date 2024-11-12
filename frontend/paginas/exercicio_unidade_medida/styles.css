@@ -1,0 +1,74 @@
+    
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  /* Crie um seletor de tag para a página com a cor de fundo pastel.*/
+  div{
+    background-color: #FFF8DE;
+    }
+  
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #A6AEBF; 
+    margin-bottom: 1em;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid #ccc;
+  }
+  
+  
+  thead th {
+    background-color: #C5D3E8;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #A6AEBF; 
+    text-align: center;
+    padding: 0.5em;
+  }
+  
+  tbody tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  /* cell styles */
+  th, td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  /* configuração de exibição de fonte em diferentes tamanhos de tela. */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    th, td {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  
+    th, td {
+      font-size: 0.8rem;
+      padding: 0.3em;
+    }
+  }
+  
